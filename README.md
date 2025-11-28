@@ -27,12 +27,14 @@ ed/u2/search/
 ├─ SimpleLinkedList.java
 ├─ SearchUtils.java
 ├─ SearchDemo.java
+├─ SearchResults.java
 ```
 
 Archivos auxiliares generados (entorno de trabajo):
 ```
 salida.txt
-tablas_evidencias_completas.md
+tablas evidencias.md
+informe.pdf
 ```
 
 ---
