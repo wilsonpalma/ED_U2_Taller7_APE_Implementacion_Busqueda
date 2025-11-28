@@ -35,6 +35,7 @@ Archivos auxiliares generados (entorno de trabajo):
 salida.txt
 tablas evidencias.md
 informe.pdf
+Comparacion secuencial vs sentinela.md
 ```
 
 ---
