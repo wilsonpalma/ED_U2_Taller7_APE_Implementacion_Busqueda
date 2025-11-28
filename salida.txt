@@ -1,0 +1,113 @@
+========== PRUEBAS SOBRE ARREGLOS ==========
+
+Dataset A: [8, 3, 6, 3, 9]
+Clave = 7
+  Primera ocurrencia: -1
+  Última ocurrencia: -1
+  Secuencial clásica: index=-1, compares=10
+  Secuencial centinela: index=-1, compares=5
+  Búsqueda binaria: (no aplicable - arreglo no ordenado)
+Clave = 5
+  Primera ocurrencia: -1
+  Última ocurrencia: -1
+  Secuencial clásica: index=-1, compares=10
+  Secuencial centinela: index=-1, compares=5
+  Búsqueda binaria: (no aplicable - arreglo no ordenado)
+Clave = 2
+  Primera ocurrencia: -1
+  Última ocurrencia: -1
+  Secuencial clásica: index=-1, compares=10
+  Secuencial centinela: index=-1, compares=5
+  Búsqueda binaria: (no aplicable - arreglo no ordenado)
+Clave = 42
+  Primera ocurrencia: -1
+  Última ocurrencia: -1
+  Secuencial clásica: index=-1, compares=10
+  Secuencial centinela: index=-1, compares=5
+  Búsqueda binaria: (no aplicable - arreglo no ordenado)
+
+Dataset B: [5, 4, 3, 2, 1]
+Clave = 7
+  Primera ocurrencia: -1
+  Última ocurrencia: -1
+  Secuencial clásica: index=-1, compares=10
+  Secuencial centinela: index=-1, compares=5
+  Búsqueda binaria: (no aplicable - arreglo no ordenado)
+Clave = 5
+  Primera ocurrencia: 0
+  Última ocurrencia: 0
+  Secuencial clásica: index=0, compares=2
+  Secuencial centinela: index=0, compares=1
+  Búsqueda binaria: (no aplicable - arreglo no ordenado)
+Clave = 2
+  Primera ocurrencia: 3
+  Última ocurrencia: 3
+  Secuencial clásica: index=3, compares=8
+  Secuencial centinela: index=3, compares=4
+  Búsqueda binaria: (no aplicable - arreglo no ordenado)
+Clave = 42
+  Primera ocurrencia: -1
+  Última ocurrencia: -1
+  Secuencial clásica: index=-1, compares=10
+  Secuencial centinela: index=-1, compares=5
+  Búsqueda binaria: (no aplicable - arreglo no ordenado)
+
+Dataset C: [1, 2, 3, 4, 5]
+Clave = 7
+  Primera ocurrencia: -1
+  Última ocurrencia: -1
+  Secuencial clásica: index=-1, compares=10
+  Secuencial centinela: index=-1, compares=5
+  Búsqueda binaria: index=-1, compares=6
+Clave = 5
+  Primera ocurrencia: 4
+  Última ocurrencia: 4
+  Secuencial clásica: index=4, compares=10
+  Secuencial centinela: index=4, compares=5
+  Búsqueda binaria: index=4, compares=5
+Clave = 2
+  Primera ocurrencia: 1
+  Última ocurrencia: 1
+  Secuencial clásica: index=1, compares=4
+  Secuencial centinela: index=1, compares=2
+  Búsqueda binaria: index=1, compares=5
+Clave = 42
+  Primera ocurrencia: -1
+  Última ocurrencia: -1
+  Secuencial clásica: index=-1, compares=10
+  Secuencial centinela: index=-1, compares=5
+  Búsqueda binaria: index=-1, compares=6
+
+Dataset D: [2, 2, 2, 2]
+Clave = 7
+  Primera ocurrencia: -1
+  Última ocurrencia: -1
+  Secuencial clásica: index=-1, compares=8
+  Secuencial centinela: index=-1, compares=4
+  Búsqueda binaria: index=-1, compares=6
+Clave = 5
+  Primera ocurrencia: -1
+  Última ocurrencia: -1
+  Secuencial clásica: index=-1, compares=8
+  Secuencial centinela: index=-1, compares=4
+  Búsqueda binaria: index=-1, compares=6
+Clave = 2
+  Primera ocurrencia: 0
+  Última ocurrencia: 3
+  Secuencial clásica: index=0, compares=2
+  Secuencial centinela: index=0, compares=1
+  Búsqueda binaria: index=1, compares=1
+Clave = 42
+  Primera ocurrencia: -1
+  Última ocurrencia: -1
+  Secuencial clásica: index=-1, compares=8
+  Secuencial centinela: index=-1, compares=4
+  Búsqueda binaria: index=-1, compares=6
+
+========== PRUEBAS SOBRE SIMPLELINKEDLIST ==========
+Lista: 3 -> 1 -> 3 -> 2
+findNode(3) -> Node(3)
+findLastNode(3) -> Node(3)
+findAll(val < 3) -> [Node(1), Node(2)]
+
+========== FIN DE LAS PRUEBAS ==========
